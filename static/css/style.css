@@ -1,0 +1,40 @@
+.title {
+    text-align: center;
+    color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
+}
+.mainContainer {
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainContainer > button {
+    color: white;
+    border-radius: .2rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border: none;
+}
+.mainContainer > * {
+    transform: scale(1.5);
+    padding: .3rem;
+}
+
+.btn1 {
+    background-color: red;
+}
+.btn2 {
+    background-color: skyblue;
+}
+.btn3 {
+    background-color: green;
+}
+.btn4 {
+    background-color: purple;
+}
+
+.dropdown {
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
